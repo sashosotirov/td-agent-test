@@ -1,0 +1,7 @@
+2019-01-30 14:36:12,512 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) starting
+2019-01-30 14:36:12,514 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+2019-01-30 14:36:12,514 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+

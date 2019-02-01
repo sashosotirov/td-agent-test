@@ -10,6 +10,7 @@ COPY td-agent.conf /etc/td-agent/
 COPY entrypoint.sh /
 COPY test.log /tmp/
 
+RUN yum update -y
 RUN rpm --import https://packages.treasuredata.com/GPG-KEY-td-agent
 RUN yum -y install td-agent
 # install td-agent plugins

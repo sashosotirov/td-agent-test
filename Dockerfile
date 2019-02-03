@@ -18,7 +18,7 @@ COPY test.log /tmp/
 
 
 # install td-agent plugins
-RUN /usr/sbin/td-agent-gem install fluent-plugin-gcloud-pubsub
+#RUN /usr/sbin/td-agent-gem install fluent-plugin-gcloud-pubsub
 
 ENTRYPOINT ["/entrypoint.sh"]
 
